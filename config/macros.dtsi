@@ -1,3 +1,15 @@
+macro_volume_up: macro_volume_up{
+compatible = "zmk,behavior-macro";
+label = "macro_volume_up";
+#binding-cells = <0>;
+bindings = <&kp RIGHT_ALT>, <&kp RIGHT_SHIFT>, <&kp F12>;
+};
+macro_volume_down: macro_volume_down{
+compatible = "zmk,behavior-macro";
+label = "macro_volume_down";
+#binding-cells = <0>;
+bindings = <&kp RIGHT_ALT>, <&kp RIGHT_SHIFT>, <&kp F11>;
+};
 macro_4: macro_4{
 compatible = "zmk,behavior-macro";
 label = "macro_4";
