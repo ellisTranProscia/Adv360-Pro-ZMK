@@ -14,7 +14,7 @@ macro_2: macro_2{
 compatible = "zmk,behavior-macro";
 label = "macro_2";
 #binding-cells = <0>;
-bindings = <&kp NUMBER_2>;
+bindings = <&kp RIGHT_META>, <&kp RIGHT_CONTROL>;
 };
 macro_1: macro_1{
 compatible = "zmk,behavior-macro";
