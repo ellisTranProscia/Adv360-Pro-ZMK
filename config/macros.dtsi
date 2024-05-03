@@ -8,7 +8,7 @@ macro_volume_down: macro_volume_down{
 compatible = "zmk,behavior-macro";
 label = "macro_volume_down";
 #binding-cells = <0>;
-bindings = <&kp RIGHT_ALT>, <&kp RIGHT_SHIFT>, <&kp F11>;
+bindings = <&kp RIGHT_ALT>, <&kp RIGHT_SHIFT>;
 };
 macro_4: macro_4{
 compatible = "zmk,behavior-macro";
