@@ -32,7 +32,7 @@ macro_1: macro_1{
 compatible = "zmk,behavior-macro";
 label = "macro_1";
 #binding-cells = <0>;
-bindings = <&kp RIGHT_META>;
+bindings = <&kp RIGHT_META>, <&kp RIGHT_ALT>;
 };
 macro_quotes: macro_quotes{
 compatible = "zmk,behavior-macro";
