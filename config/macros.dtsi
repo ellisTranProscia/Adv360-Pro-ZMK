@@ -2,7 +2,7 @@ macro_tmux_leader: macro_tmux_leader{
 compatible = "zmk,behavior-macro";
 label = "macro_tmux_leader";
 #binding-cells = <0>;
-bindings = <&mt LEFT_CONTROL A>;
+bindings = <&mt LEFT_CONTROL S>;
 };
 macro_volume_up: macro_volume_up{
 compatible = "zmk,behavior-macro";
