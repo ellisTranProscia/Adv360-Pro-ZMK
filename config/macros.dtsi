@@ -1,3 +1,9 @@
+macro_nvim_leader: macro_nvim_leader{
+compatible = "zmk,behavior-macro";
+label = "macro_nvim_leader";
+#binding-cells = <0>;
+bindings = <&mt LCTRL V>;
+};
 macro_tmux_leader: macro_tmux_leader{
 compatible = "zmk,behavior-macro";
 label = "macro_tmux_leader";
