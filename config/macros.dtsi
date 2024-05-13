@@ -1,15 +1,3 @@
-macro_homerow_leader: macro_homerow_leader{
-compatible = "zmk,behavior-macro";
-label = "macro_homerow_leader";
-#binding-cells = <0>;
-bindings = <&mt LA(LCMD) undefined>;
-};
-macro_yabai_leader: macro_yabai_leader{
-compatible = "zmk,behavior-macro";
-label = "macro_yabai_leader";
-#binding-cells = <0>;
-bindings = <&mt LSHIFT A>;
-};
 macro_nvim_leader: macro_nvim_leader{
 compatible = "zmk,behavior-macro";
 label = "macro_nvim_leader";
