@@ -1,3 +1,9 @@
+macro_homerow_leader: macro_homerow_leader{
+compatible = "zmk,behavior-macro";
+label = "macro_homerow_leader";
+#binding-cells = <0>;
+bindings = <&kp LC(J)>;
+};
 macro_yabai_leader: macro_yabai_leader{
 compatible = "zmk,behavior-macro";
 label = "macro_yabai_leader";
