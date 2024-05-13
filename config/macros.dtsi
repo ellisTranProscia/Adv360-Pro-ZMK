@@ -8,7 +8,7 @@ macro_yabai_leader: macro_yabai_leader{
 compatible = "zmk,behavior-macro";
 label = "macro_yabai_leader";
 #binding-cells = <0>;
-bindings = <&mt LEFT_SHIFT F>;
+bindings = <&mt LSHIFT A>;
 };
 macro_nvim_leader: macro_nvim_leader{
 compatible = "zmk,behavior-macro";
